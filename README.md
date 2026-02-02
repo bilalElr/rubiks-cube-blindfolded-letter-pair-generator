@@ -4,4 +4,6 @@ Notes:
 - Every pair generated in a solve is unique
 - Inverses of pairs can appear, for example BQ and QB
 - pairs like AA or BB will not appear
+
+
 I believe this covers everything. hope you find this useful. i know many tools like this exist, but i was bored so i decided to make my own.
