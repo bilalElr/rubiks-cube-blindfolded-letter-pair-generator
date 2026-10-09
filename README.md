@@ -11,4 +11,44 @@ To install this program, you can run the following command:
 git clone https://github.com/bilalElr/rubiks-cube-blindfolded-letter-pair-generator.git && cd rubiks-cube-blindfolded-letter-pair-generator && chmod +x build.sh && ./build.sh
 ```
 
+How to use:
+```
+./comms [piece type] [count]
+-c    		generate corner pairs
+-e 		generate edge pairs
+-w 		generate wing pairs
+-x  		generate center pairs
+```
+
+Example output for edge pairs:
+```
+./comms -e 6
+======== Generated edge pairs ========
+MP
+PW
+MW
+XP
+LU
+WM
+============ END ============
+```
+
+Example output for center pairs:
+```
+./comms -x 10
+======== Generated center pairs ========
+KF
+FR
+PF
+QP
+BU
+TN
+UF
+EQ
+RC
+PB
+============ END ============
+```
+
+
 I believe this covers everything. hope you find this useful. i know many tools like this exist, but i was bored so i decided to make my own.
