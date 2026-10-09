@@ -7,6 +7,8 @@ Notes:
 - pairs like AA or BB will not appear
 
 To install this program, you can run the following command:
-`git clone https://github.com/bilalElr/rubiks-cube-blindfolded-letter-pair-generator.git && cd rubiks-cube-blindfolded-letter-pair-generator && chmod +x build.sh && ./build.sh`
+```bash
+git clone https://github.com/bilalElr/rubiks-cube-blindfolded-letter-pair-generator.git && cd rubiks-cube-blindfolded-letter-pair-generator && chmod +x build.sh && ./build.sh
+```
 
 I believe this covers everything. hope you find this useful. i know many tools like this exist, but i was bored so i decided to make my own.
